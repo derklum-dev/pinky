@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.app-info {
+  margin-bottom: 60px;
+}
+
+.app-info h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 18px;
+  color: #cccccc;
+  max-width: 700px;
+}
+
+.features {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.features li {
+  margin-bottom: 8px;
+}
+
+.download {
+  padding: 30px;
+  background: #161616;
+  border-radius: 10px;
+}
+
+.download h2 {
+  margin-top: 0;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 14px 28px;
+  background: #ff3b3b;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.download-btn:hover {
+  background: #ff5c5c;
+}
+
+.note {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #aaaaaa;
+}
